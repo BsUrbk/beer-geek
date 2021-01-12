@@ -6,20 +6,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone this repo
 
-```git clone git@github.com:BsUrbk/beer-geek.git```
+```
+git clone git@github.com:BsUrbk/beer-geek.git
+```
 
 2. Install required npm packages
 
-```npm install```
+```
+npm install
+```
 
 3. Run Project
 
-```npm start```
+```
+npm start
+```
 
 
-# Technologies used in this projects
+## Technologies used in this projects
 
--["NodeJS"](https://nodejs.org/en/docs/)
+- [NodeJS](https://nodejs.org/en/docs/)
 
--["React"](https://pl.reactjs.org/)
+- [React](https://pl.reactjs.org/)
 
