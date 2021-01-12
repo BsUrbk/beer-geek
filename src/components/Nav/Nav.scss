@@ -1,0 +1,37 @@
+nav{
+    width: 20vw;
+    height: 100vh;
+    background-color: #DF8D03;
+}
+@font-face{
+    src: url('../../assets/fonts/Quicksand-VariableFont_wght.ttf');
+    font-family: Quick;
+}
+a{
+    text-decoration: none;
+    color: #2616D9;
+    font-size: 24px;
+    font-family: Quick;
+    display: block;
+}
+li{
+    box-shadow: 3px 2px #4561F0;
+    padding: 5px 4px 3px 10px;
+    margin: 25px 50px 0px 25px; 
+    transition: 0.5s;
+}
+li:hover{
+    box-shadow: 4px 3px #347BD9;
+    padding-left: 12px;
+    transition: 0.5s;
+}
+ul{
+    list-style: none;
+}
+.beerIcon{
+    height: 128px;
+    width: 128px;
+    position: relative;
+    top: 3vh;
+    left: 0.5vw;
+}
