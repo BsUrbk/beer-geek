@@ -20,5 +20,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Technologies used in this projects
 
 -["NodeJS"](https://nodejs.org/en/docs/)
+
 -["React"](https://pl.reactjs.org/)
 
