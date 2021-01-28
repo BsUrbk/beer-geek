@@ -1,6 +1,6 @@
 import './App.scss';
 import Nav from './components/Nav/Nav.js';
-import Hero from './components/Hero/Hero.js';
+import SearchBar from './components/SearchBar/SearchBar.js'
 import Home from './views/Home/Home.js';
 import Search from './views/Search/Search.js';
 import Random from './views/RandomBeer/Random.js';

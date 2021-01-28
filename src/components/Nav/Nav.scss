@@ -1,7 +1,7 @@
 nav{
-    width: 20vw;
+    width: 18vw;
     height: 100vh;
-    background-color: #DF8D03;
+    background-color: #C48E0E;
 }
 @font-face{
     src: url('../../assets/fonts/Quicksand-VariableFont_wght.ttf');
@@ -9,29 +9,30 @@ nav{
 }
 a{
     text-decoration: none;
-    color: #2616D9;
+    color: #291D03;
     font-size: 24px;
     font-family: Quick;
     display: block;
 }
-li{
-    box-shadow: 3px 2px #4561F0;
+ul.links li{
+    box-shadow: 3px 2px #BF7404;
     padding: 5px 4px 3px 10px;
     margin: 25px 50px 0px 25px; 
     transition: 0.5s;
 }
-li:hover{
-    box-shadow: 4px 3px #347BD9;
+ul.links li:hover{
+    box-shadow: 4px 3px #995D03;
     padding-left: 12px;
     transition: 0.5s;
 }
-ul{
+.links{
     list-style: none;
 }
 .beerIcon{
-    height: 128px;
-    width: 128px;
+    height: 96px;
+    width: 96px;
     position: relative;
-    top: 3vh;
-    left: 0.5vw;
+    top: 5vh;
+    left: 2vw;
+    margin-bottom: 5vh;;
 }

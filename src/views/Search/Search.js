@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './Search.scss';
+import SearchBar from '../../components/SearchBar/SearchBar.js';
 
 const Search = () => {
 
@@ -10,8 +11,9 @@ const Search = () => {
 
     const [beers, setBeers] = useState([]);
 
+
     const fetchBeer = async () => {
-        const data = await fetch('https://api.punkapi.com/v2/beers/16');
+        const data = await fetch('https://api.punkapi.com/v2/beers/5');
 
         const beers = await data.json();
         console.log(beers);
@@ -22,12 +24,14 @@ const Search = () => {
      
 
     return ( 
+        <div className="box">
         <div className="beer"> 
                 {beers.map(beer =>(
                     
                     <img src={beer.image_url} alt=""/>
                 ))}
-                
+                <SearchBar />
+        </div>
         </div>
      );
 }
